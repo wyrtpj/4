@@ -1,0 +1,8 @@
+start
+new i number
+set i 1
+   loop numbers (11 > i)
+      log number i
+      set i i+1
+   end numbers
+finish
