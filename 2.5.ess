@@ -1,0 +1,15 @@
+start
+new x number
+set x 7
+new const number
+set const 3
+log string const >> " ' = " >> 0
+log string "x' = " >> 1
+log string const >> "* x = " >> const
+log string "(x^2)' = 2x ="  >> x+x
+log string "(sin" >> x >> ")'=" >> "cos" >> x
+log string "(cos" >> x >> ")'=" >> "-sin" >> x
+new b number 
+set b x+x+x+x+x+x+x
+log string "(x^3)' = 3x^2 ="  >> b+b+b
+finish
