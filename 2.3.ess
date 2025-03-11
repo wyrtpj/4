@@ -1,0 +1,11 @@
+start
+new i number
+set i 1
+new x number
+set x 0
+   loop cyc (4>i)
+      set x x+2
+      set i i+1
+   end cyc
+log string "х = 2 + 2 * 2 = " >> x
+finish
