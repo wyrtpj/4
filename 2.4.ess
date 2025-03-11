@@ -1,0 +1,13 @@
+start
+new chis number
+set chis 22
+new del number
+set del 7
+   loop a (chis>del)
+     new i number
+     set i 0
+     set chis chis-del
+     set i i+1
+   end a
+log string i >> "," >> chis >> "/" >> del
+funish
