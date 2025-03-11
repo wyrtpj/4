@@ -1,0 +1,91 @@
+start
+new num1 number
+set num1 1
+  loop c1 (10 > i)
+     new i number
+     set i 1
+     log number num1
+     set num1 num1+num1
+     set i i+1
+  end c1
+
+new i2 number
+set i2 1
+new num2 number
+set num2 2
+  loop c2 (10 > i2)
+     log number num2
+     set num2 num2+num2
+     set i2 i2+1
+  end c2
+
+new i3 number
+set i3 1
+new num3 number
+set num3 3
+  loop c3 (10 > i3)
+     log number num3
+     set num3 num3+num3
+     set i3 i3+1
+  end c3
+
+new i4 number
+set i4 1
+new num4 number
+set num4 4
+  loop c4 (10 > i4)
+     log number num4
+     set num4 num4+num4
+     set i4 i4+1
+  end c4
+
+new i5 number
+set i5 1
+new num5 number
+set num5 5
+  loop c5 (10 > i5)
+     log number num5
+     set num5 num5+num5
+     set i5 i5+1
+  end c5
+
+new i6 number
+set i6 1
+new num6 number
+set num6 6
+  loop c6 (10 > i6)
+     log number num6
+     set num6 num6+num6
+     set i6 i6+1
+  end c6
+
+new i7 number
+set i7 1
+new num7 number
+set num7 7
+  loop c7 (10 > i7)
+     log number num7
+     set num7 num7+num7
+     set i7 i7+1
+  end c7
+
+new i8 number
+set i8 1
+new num8 number
+set num8 2
+  loop c8 (10 > i8)
+     log number num8
+     set num8 num8+num8
+     set i8 i8+1
+  end c8
+
+new i9 number
+set i9 1
+new num9 number
+set num9 9
+  loop c9 (10 > i9)
+     log number num9
+     set num9 num9+num9
+     set i9 i9+1
+  end c9
+finish
